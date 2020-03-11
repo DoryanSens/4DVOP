@@ -1,4 +1,4 @@
-FROM openjdk:7
+FROM openjdk:latest
 
 RUN  apt-get update && apt-get install wget
 
